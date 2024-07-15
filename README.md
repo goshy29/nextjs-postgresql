@@ -26,7 +26,7 @@ Backend: Contains all server-side code and database logic.
  3. db-connection: Folder dedicated to managing the PostgreSQL connection.
 
 ## To run this project locally, follow these steps:
-1. Clone the repository: git clone https://github.com/yourusername/react-portfolio
+1. Clone the repository: git clone https://github.com/goshy29/nextjs-postgresql.git
 2. Open the project with your code editor(VS Code) and open New Terminal
 3. To install dependencies, at the Terminal run: npm install
 4. Start the development server: npm run dev
