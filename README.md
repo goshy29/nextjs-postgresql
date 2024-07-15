@@ -30,4 +30,5 @@ Backend: Contains all server-side code and database logic.
 2. Open the project with your code editor(VS Code) and open New Terminal
 3. To install dependencies, at the Terminal run: npm install
 4. Start the development server: npm run dev
-5. Open the application in your browser: http://localhost:3000 
+5. Ensure PostgreSQL is installed and running
+6. Open the application in your browser: http://localhost:3000 
