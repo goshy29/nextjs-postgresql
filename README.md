@@ -38,3 +38,15 @@ Backend: Contains all server-side code and database logic.
 2. name: John Doe
 3. email: testmail@gmail.com
 4. experience: Look, I’m no professional athlete, nor will I ever be. I go to CrossFit because I love the community and I feel better when I work out. My motivation is internal. I’ve found that like running a marathon , most of the battle is competing with what’s inside your own head. You have to mentally tell yourself you can do it, trying a complicated movement, or even just finishing the workout.
+
+## PostgreSQL Connection:
+You will find this connection code at directory "db-connection/postgre-connection.js".
+
+const sequelize = new Sequelize("database", "username", "password", {
+    host: "localhost",
+    dialect: "postgres"
+});
+
+Replace that sequelize connection properties("database", "username", "password") with your own database credentials for PostgreSQL.
+
+**Note: When you start the application for first time, after successfully post a place by you, database table "place" will be automatically created by Sequelize and you are ready to go.**
